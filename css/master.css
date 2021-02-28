@@ -5,6 +5,7 @@
 
 body {
   font-family: Lalezar;
+  padding: 2px
 }
 
 header ul{
@@ -43,5 +44,9 @@ header li:last-child i{
   padding-top: 2px;
   font-size:30px;
   color:white;
-  padding-left: 5px;
+  padding-left: 10px;
+}
+
+.imgintro{
+  float: left;
 }
