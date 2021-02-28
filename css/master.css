@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Lalezar";
+  src: url("../fonts/Lalezar-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: Lalezar;
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header a{
+  text-decoration: none;
+  color: black
+}
+
+ul > li:not(:first-child) {
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 6px;
+  font-size: 25px;
+}
+
+header li:last-child {
+  background-color: #2ABCA6;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+header li:last-child a{
+  color: white;
+  display: flex;
+}
+
+header li:last-child i{
+  color: white;
+  padding-top: 2px;
+  font-size:30px;
+  color:white;
+  padding-left: 5px;
+}

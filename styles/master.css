@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Lalezar";
+  src: url("../webfonts/Lalezar-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: Lalezar;
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+ul > li:not(:first-child) {
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 6px;
+  font-size: 25px;
+}
+
+header li:last-child {
+    background: green;
+}
