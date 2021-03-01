@@ -5,7 +5,7 @@
 
 body {
   font-family: Lalezar;
-  padding: 2px
+  padding: 5px;
 }
 
 header ul{
@@ -47,6 +47,25 @@ header li:last-child i{
   padding-left: 10px;
 }
 
-.imgintro{
+#imgintro{
   float: left;
+}
+
+#tblintro{
+  width: 100%;
+}
+
+#tblintro td:first-child{
+  vertical-align: top;
+  padding-right: 100px;
+  padding-top: 100px;
+  width: 60%;
+  font-size: 30px;
+  color: #2ABCA6;
+}
+
+#tblintro td:first-child > p{
+  padding-right: 20px;
+  font-size: 30px;
+  color: black;
 }
