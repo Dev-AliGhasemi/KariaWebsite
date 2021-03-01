@@ -18,7 +18,7 @@ header ul{
 
 header a{
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 ul > li:not(:first-child) {
@@ -28,8 +28,10 @@ ul > li:not(:first-child) {
   font-size: 25px;
 }
 
-header li:last-child {
+.button {
+  text-decoration: none;
   background-color: #2ABCA6;
+  color: white;
   border-radius: 30px;
   padding: 10px;
 }
@@ -51,7 +53,7 @@ header li:last-child i{
   float: left;
 }
 
-#tblintro{
+#tblintro , #tblreg{
   width: 100%;
 }
 
@@ -75,7 +77,7 @@ section:not(:first-child){
   align-items: center;
 }
 
-#karia-features-header{
+#section-header{
   display: inline;
   font-size: 50px;
   font-weight: 100;
@@ -114,4 +116,23 @@ section:not(:first-child){
 #karia-features-table p{
   font-weight: 100;
   font-size: 30px;
+}
+
+#tblreg{
+  text-align: right;
+}
+
+#tblreg td:last-child{
+  vertical-align: top;
+  padding-right: 100px;
+  padding-top: 100px;
+  width: 60%;
+  font-size: 30px;
+  color: #2ABCA6;
+}
+
+#tblreg td:last-child > p{
+  padding-right: 20px;
+  font-size: 30px;
+  color: black;
 }
