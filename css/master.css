@@ -69,3 +69,49 @@ header li:last-child i{
   font-size: 30px;
   color: black;
 }
+
+section:not(:first-child){
+  text-align: center;
+  align-items: center;
+}
+
+#karia-features-header{
+  display: inline;
+  font-size: 50px;
+  font-weight: 100;
+  border: 4px dashed black;
+  border-radius: 55px;
+  padding: 15px;
+}
+
+#karia-features-table{
+  width: 70%;
+  height: auto;
+  margin: 60px auto;
+  border-spacing: 30px;
+}
+
+#karia-features-table td{
+  border-radius: 20px;
+  padding: 20px 0px 20px 0px;
+  width: 398px;
+  transition-timing-function: ease-in-out;
+  transition-duration: .5s;
+  transition-property: all;
+}
+
+#karia-features-table td:hover{
+  box-shadow: -5px 5px 40px #E7F7F6;
+  transform: scale(1.1);
+}
+
+#karia-features-table h3{
+  font-weight: 100;
+  font-size: 40px;
+  color: #269B87;
+}
+
+#karia-features-table p{
+  font-weight: 100;
+  font-size: 30px;
+}
