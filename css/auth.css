@@ -1,0 +1,117 @@
+@@font-face {
+  font-family: "Lalezar";
+  src: url("../fonts/Lalezar-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: Lalezar;
+  font-weight: 100;
+  padding: 0px;
+  margin: 0px;
+}
+
+header , main {
+  padding: 8px;
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+ul > li:not(:first-child) {
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 6px;
+  font-size: 25px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #2ABCA6;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+header li:last-child a{
+  color: white;
+  display: flex;
+}
+
+header li:last-child i{
+  color: white;
+  padding-top: 2px;
+  font-size:30px;
+  color:white;
+  padding-left: 10px;
+}
+
+main{
+  height: 100vh;
+  text-align: center;
+}
+
+h1{
+  font-weight: 100;
+}
+
+section{
+  width: 40%;
+  height: fit-content;
+  box-shadow: -5px 5px 40px #E7F7F6;
+  border-radius: 20px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+label{
+  font-size: 25px;
+}
+
+[type=tel] , [type=text]{
+  outline: none;
+  text-align: center;
+  font-family: Lalezar;
+  font-size: 18px;
+  border: 2px solid #2ABCA6;
+  background-color: white;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 10px;
+}
+
+[type=submit]{
+  border: 2px solid #2ABCA6;
+  width: 100px;
+  font-family: Lalezar;
+  font-size: 18px;
+  outline: none;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  padding: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-property: color , background-color;
+}
+
+[type=submit]:hover{
+  width: 100px;
+  font-family: Lalezar;
+  font-size: 18px;
+  outline: none;
+  background-color: #2ABCA6;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}

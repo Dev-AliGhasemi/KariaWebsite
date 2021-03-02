@@ -21,10 +21,6 @@ header ul{
   padding: 0;
 }
 
-table{
-  width: 100%;
-}
-
 header a{
   text-decoration: none;
   color: black;
@@ -56,6 +52,10 @@ header li:last-child i{
   font-size:30px;
   color:white;
   padding-left: 10px;
+}
+
+table{
+  width: 100%;
 }
 
 #imgintro{
