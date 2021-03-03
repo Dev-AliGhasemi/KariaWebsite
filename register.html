@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="icon" type="image/png" href="images/karia.png">
+    <link rel="stylesheet" href="css/reg.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>ثبت نام</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><img src="images/karia.png" alt="kari logo" width="55" height="55"></a></li>
+          <li><a href="index.html">کاریا چیست؟</a></li>
+          <li><a href="#">ثبت نام به عنوان متخصص</a></li>
+          <li><a class="button" href="https://cafebazaar.ir/" target="_blank"><i class="fab fa-android"></i> دانلود از بازار </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="images/karia.png" alt="کاریا" title="کاریا" width="100px" height="100px">
+      <h1>ارسال اطلاعات متخصص</h1>
+      <section>
+        <form action="authentication" method="post">
+          <div class="container">
+            <div class="field">
+              <label for="firstname">نام</label>
+              <br>
+              <input type="text" name="firstname" id="firstname" placeholder="نام خود را اینجا وارد کنید" maxlength="50">
+            </div>
+            <div class="field">
+              <label for="lastname">نام خانوادگی</label>
+              <br>
+              <input type="text" name="lastname" id="lastname" placeholder="نام خانوادگی را اینجا وارد کنید">
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="field">
+              <label for="category">دسته بندی کاری</label>
+              <br>
+              <select>
+                <optgroup>
+                  <option value="painer">نقاش</option>
+                  <option value="driver">راننده</option>
+                  <option value="librarian">کتابخانه</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="field">
+              <label for="category">سال تولد</label>
+              <br>
+              <input type="number" name="category" id="category" placeholder="سال تولدتان را اینجا وارد کنید">
+            </div>
+          </div>
+
+          <div class="container">
+            <label for="orientation">گرایش یا حوزه فعالیت (حداکثر ۵ مورد)</label>
+            <br>
+            <input type="text" name="orientation" id="orientation" placeholder="حوزه خود را اینجا وارد کنید مثلا آیفون تصویری">
+          </div>
+
+          <div class="container">
+            <div class="field">
+              <label for="profile">عکس پرسنلی</label>
+              <br>
+              <label for="button" class="button">انتخاب عکس</label>
+              <input id="button" name="profile" type="file">
+            </div>
+          </div>
+
+          <div class="container">
+            <input type="checkbox" id="is-master" name="is-master" >
+            <label for="is-master" class="checkbox">استاد کار هستم</label>
+            <br>
+            <input type="checkbox" id="is-have-vehicle" name="is-have-vehicle" class="checkbox">
+            <label for="is-have-vehicle" class="checkbox">وسیله نقلیه دارم</label>
+          </div>
+
+          <div class="container">
+            <div class="field">
+              <label for="">درمورد من</label>
+              <br>
+              <p>در این قسمت توضیحاتی  در مورد : </p>
+                <ol>
+                  <li>تجربیاتتون و کارهایی که کردید وارد کنید</li>
+                  <li>اشاره کنید که تمایل دارید چه کارهایی انجام دهید</li>
+                  <li>اینکه چرا شما انتخاب مناسبی برای کار پیمانکار هستید</li>
+                </ol>
+              <textarea name="name" rows="8" cols="75"></textarea>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="field">
+              <label for="profile">عکسی از نمونه کار ها</label>
+              <br>
+              <label for="button" class="button">انتخاب عکس</label>
+              <input id="button" name="profile" type="file">
+              <br>
+              <label for="button" class="button">انتخاب عکس</label>
+              <input id="button" name="profile" type="file">
+              <br>
+              <label for="button" class="button">انتخاب عکس</label>
+              <input id="button" name="profile" type="file">
+            </div>
+          </div>
+          <div class="container" style="text-align:center;">
+            <input type="submit" value="ارسال">
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
