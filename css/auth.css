@@ -77,7 +77,20 @@ label{
   font-size: 25px;
 }
 
-[type=tel] , [type=text]{
+/*Remove arrow keys for input with number type */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+[type=number]{
   outline: none;
   text-align: center;
   font-family: Lalezar;
