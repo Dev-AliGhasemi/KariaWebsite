@@ -108,6 +108,7 @@ input[type=number] {
 
 #orientation{
   width: -webkit-fill-available;
+  font-size: 20px;
 }
 
 [type=submit]{
