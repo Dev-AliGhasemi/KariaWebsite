@@ -34,9 +34,11 @@ ul > li:not(:first-child) {
 }
 
 .button {
+  border: none;
   text-decoration: none;
   background-color: #2ABCA6;
   color: white;
+  font-family: Lalezar;
   border-radius: 30px;
   padding: 10px;
 }
@@ -145,6 +147,7 @@ section:not(:first-child){
 footer{
   background-color: #269B87;
   color: white;
+  margin-top: 25px;
   padding: 30px 20px 10px 20px;
 }
 
