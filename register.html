@@ -23,7 +23,7 @@
       <img src="images/karia.png" alt="کاریا" title="کاریا" width="100px" height="100px">
       <h1>ارسال اطلاعات متخصص</h1>
       <section>
-        <form action="authentication" method="post">
+        <form action="registration" method="post">
           <div class="container">
             <div class="field">
               <label for="firstname">نام</label>
@@ -41,7 +41,7 @@
             <div class="field">
               <label for="category">دسته بندی کاری</label>
               <br>
-              <select>
+              <select name="category">
                 <optgroup>
                   <option value="painer">نقاش</option>
                   <option value="driver">راننده</option>
@@ -50,9 +50,9 @@
               </select>
             </div>
             <div class="field">
-              <label for="category">سال تولد</label>
+              <label for="birthyear">سال تولد</label>
               <br>
-              <input type="number" name="category" id="category" placeholder="سال تولدتان را اینجا وارد کنید">
+              <input type="number" name="birthyear" id="category" placeholder="سال تولدتان را اینجا وارد کنید">
             </div>
           </div>
 
@@ -81,7 +81,7 @@
 
           <div class="container">
             <div class="field">
-              <label for="">درمورد من</label>
+              <label for="description">درمورد من</label>
               <br>
               <p>در این قسمت توضیحاتی  در مورد : </p>
                 <ol>
@@ -89,7 +89,7 @@
                   <li>اشاره کنید که تمایل دارید چه کارهایی انجام دهید</li>
                   <li>اینکه چرا شما انتخاب مناسبی برای کار پیمانکار هستید</li>
                 </ol>
-              <textarea name="name" rows="8" cols="75"></textarea>
+              <textarea id="description" name="description" rows="8" cols="75"></textarea>
             </div>
           </div>
 
@@ -98,13 +98,13 @@
               <label for="profile">عکسی از نمونه کار ها</label>
               <br>
               <label for="button" class="button">انتخاب عکس</label>
-              <input id="button" name="profile" type="file">
+              <input id="button" name="smaplejob1" type="file">
               <br>
               <label for="button" class="button">انتخاب عکس</label>
-              <input id="button" name="profile" type="file">
+              <input id="button" name="samplejob2" type="file">
               <br>
               <label for="button" class="button">انتخاب عکس</label>
-              <input id="button" name="profile" type="file">
+              <input id="button" name="samplejob3" type="file">
             </div>
           </div>
           <div class="container" style="text-align:center;">
