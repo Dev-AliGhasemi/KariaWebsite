@@ -1,6 +1,6 @@
-@@font-face {
+@font-face {
   font-family: "Lalezar";
-  src: url("../fonts/Lalezar-Regular.ttf") format("truetype");
+  src: url("../webfonts/Lalezar-Regular.ttf") format("truetype");
 }
 
 body {
